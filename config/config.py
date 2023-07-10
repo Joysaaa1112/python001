@@ -1,0 +1,8 @@
+# 数据库配置
+HOST = '127.0.0.1'
+PORT = '3306'
+USERNAME = 'root'
+PASSWORD = '123456'
+DATABASE = 'python01'
+CHARSET = 'utf8'
+SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}?charset={CHARSET}'
